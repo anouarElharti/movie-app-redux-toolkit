@@ -1,0 +1,27 @@
+@import "../../common/colors.scss";
+
+.header {
+  background-color: $secondary-color;
+  height: 72px;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo_link,
+.logo_link:visited,
+.logo_link:active {
+  text-decoration: none;
+  color: $font-primary;
+}
+.logo {
+  color: $font-primary;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.user_img,
+.user_img img {
+  width: 38px;
+  height: auto;
+}
