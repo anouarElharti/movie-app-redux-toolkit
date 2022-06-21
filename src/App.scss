@@ -11,3 +11,8 @@ body {
 .container {
   margin: 0 40px;
 }
+a,
+a:visited:a:hover {
+  text-decoration: none;
+  color: initial;
+}
